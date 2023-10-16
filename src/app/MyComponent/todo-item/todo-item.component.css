@@ -1,0 +1,22 @@
+.sparsh{
+    color:green;
+   
+}
+.strike{
+    text-decoration:line-through;
+    color:brown;
+}
+
+.trash{
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.form-check-input{
+    border-color: black;
+}
+
+
+
+
+ 

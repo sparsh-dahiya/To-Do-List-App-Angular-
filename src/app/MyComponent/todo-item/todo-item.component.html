@@ -1,0 +1,16 @@
+<div class="my-3">
+  <h4 [ngClass]="{'strike': !todo.active}" class="sparsh">{{todo.title}}</h4>
+  <p [ngClass]="{'strike': !todo.active}" class="sparsh">{{todo.desc}}</p>
+  <div class="mb-3 form-check">
+    <div  class="content">
+      <input type="checkbox" class="form-check-input" id="todo" (click)="onCheckboxClick(todo)" [checked]="!todo.active">
+
+      <label class="form-check-label" for="todo{{i}}">Mark as Done</label>
+      <fa-icon [icon]="icon" (click)="onClick(todo)" class="trash"></fa-icon>
+    </div>
+
+
+  </div>
+
+
+</div>
